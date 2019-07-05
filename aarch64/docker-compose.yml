@@ -1,0 +1,7 @@
+version: '3'
+services:
+  node-red:
+    image: iomz/node-red-docker-aarch64:latest
+    restart: always
+    ports:
+      - "1880:1880"
